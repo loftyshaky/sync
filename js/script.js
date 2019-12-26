@@ -15,7 +15,7 @@ const success = Boolean(+url.searchParams.get('success'));
 
 (() => {
     const locale_script = x.create('script', '');
-    locale_script.setAttribute('src', `sync/js/locales/${locale}.js`);
+    locale_script.setAttribute('src', `js/locales/${locale}.js`);
     x.append(document.body, locale_script);
 
     locale_script.addEventListener('load', () => {
