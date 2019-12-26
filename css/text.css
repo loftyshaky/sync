@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("..sync/Roboto-Light.ttf");
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    line-height: 20px;
+}

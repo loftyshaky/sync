@@ -1,0 +1,11 @@
+.msg {
+    display: table;
+    background-color: red;
+    color: white;
+    margin: auto;
+    padding: 20px;
+}
+
+.none {
+    display: none;
+}
