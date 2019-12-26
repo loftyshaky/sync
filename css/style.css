@@ -1,3 +1,14 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+    padding: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 body.success {
     background-color: #1bb159;
 }
@@ -7,14 +18,13 @@ body.error {
 }
 
 .msg {
-    display: table;
+    width: max-content;
     color: white;
     background-color: rgba(255, 255, 255, 0.09);
-    margin: auto;
-    margin-top: 30px;
     padding: 30px;
 }
 
-.none {
+.none,
+.msg:empty {
     display: none;
 }
