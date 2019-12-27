@@ -1,12 +1,6 @@
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
     background-color: white;
     padding: 30px;
-    padding-top: 0;
-    padding-bottom: 0;
 }
 
 body.success {
@@ -18,10 +12,12 @@ body.error {
 }
 
 .msg {
-    width: max-content;
+    max-width: max-content;
     color: white;
     background-color: rgba(255, 255, 255, 0.09);
+    text-align: center;
     padding: 30px;
+    margin: auto;
 }
 
 .none,
